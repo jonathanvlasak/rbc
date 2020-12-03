@@ -1,11 +1,7 @@
-body {
-  background-image: black;
-  font-family: 'Montserrat', sans-serif; }
+@import 'normalize.css';
+@import 'base/_mixins';
+@import 'base/_global';
 
-p {
-  font-size: 3rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: red; }
 
 h2 {
   font-size: 5rem; }
@@ -26,4 +22,4 @@ video {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-image: url("/img/factory-image.png"); }
+}
