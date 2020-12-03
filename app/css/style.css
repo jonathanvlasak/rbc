@@ -1,0 +1,29 @@
+body {
+  background-image: black;
+  font-family: 'Montserrat', sans-serif; }
+
+p {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red; }
+
+h2 {
+  font-size: 5rem; }
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .5; }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/img/factory-image.png"); }
