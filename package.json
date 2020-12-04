@@ -10,9 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "lodash": "^4.17.20",
     "normalize.css": "^8.0.1",
-    "postcss-mixins": "^7.0.1"
+    "postcss-import": "^13.0.0",
+    "postcss-mixins": "^7.0.1",
+    "tailwindcss": "^2.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.4",

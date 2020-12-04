@@ -1,25 +1,11 @@
 @import 'normalize.css';
 @import 'base/_mixins';
 @import 'base/_global';
-
+@import 'base/_grid';
+@import 'modules/_hero-image';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 h2 {
   font-size: 5rem; }
-
-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: .5; }
-
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-}
